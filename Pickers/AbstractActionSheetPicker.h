@@ -123,4 +123,8 @@ static NSString *const kActionTarget = @"buttonActionTarget";
 // Hide picker programmatically
 - (void)hidePickerWithCancelAction;
 
+- (void)dismissPicker;
+
+- (IBAction)actionPickerDone:(id)sender;
+
 @end
